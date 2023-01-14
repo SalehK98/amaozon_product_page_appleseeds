@@ -68,6 +68,63 @@ main header#secondaryHeader {
   display: flex;
 }
 
+main section#secondaryMain aside#leftSide section#imageList ul {
+  list-style: none;
+}
+
+main section#secondaryMain aside#leftSide section#imageList button {
+  background-color: #fff;
+  border: 1px solid #b1b3b9;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: fit-content;
+  height: fit-content;
+  /* padding: 0; */
+  background-color: #131921;
+  background-size: 100%;
+}
+
+main section#secondaryMain aside#leftSide section#imageList input {
+  background-color: #fff;
+  border: 1px solid #b1b3b9;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+main section#secondaryMain aside#leftSide section#imageList button img {
+  background-position: center;
+  background-size: 100%;
+
+  object-fit: cover;
+  padding: 0;
+}
+
+main section#secondaryMain aside#leftSide section#imageList input:hover {
+  border-color: #eb8c29;
+  box-shadow: 0px 0px 3px 1px #eb8c29;
+}
+
+main section#secondaryMain aside#leftSide section#imageList input:active {
+  border-color: #eb8c29;
+  box-shadow: 0px 0px 2px 1px #6bc5e8;
+}
+
+#displayImage {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+}
+
+main
+  section#secondaryMain
+  aside#leftSide
+  section#imageList
+  input:hover
+  #displayImage {
+  background-color: #131987;
+}
 /* buy it with */
 
 /* more from brands */
