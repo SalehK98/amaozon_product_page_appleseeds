@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(../fonts/AmazonEmberDisplay_W_Lt.woff2);
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "AmazonEmber", Open Sans, sans-serif;
+}
+
+/* navigation center */
+
+header#primaryHeader {
+  /* border: 0.2rem solid green; */
+  width: 100%;
+  box-sizing: border-box;
+  /* height: 5rem; */
+}
+
+header#primaryHeader nav#primaryNavBar {
+  background-color: #131921;
+  width: 100%;
+  overflow: hidden;
+  height: 3.5rem;
+}
+
+header#primaryHeader nav#primaryNavBar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header#primaryHeader nav#secondaryNavBar {
+  background-color: #232f3e;
+  width: 100%;
+  height: 2.5rem;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+header#primaryHeader nav#secondaryNavBar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+header#primaryHeader nav#secondaryNavBar a {
+  padding: 10px;
+}
+
+/* main */
+
+/* secondaryMain */
+
+main header#secondaryHeader {
+  display: flex;
+}
+
+/* buy it with */
+
+/* more from brands */
+
+/* description */
+
+main section#description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+main section#description section#info p {
+  padding-bottom: 10px;
+  margin: 0 0 14px 0;
+}
+
+main section#description section#info ul {
+  margin: 0 0 18px 18px;
+}
+
+main section#description section#table table {
+  border-collapse: collapse;
+  text-align: center;
+  /* border-spacing: 2px; */
+}
+main section#description section#table table thead tr:nth-child(2) th {
+  border-bottom: 1px solid;
+  border-color: #747676;
+}
+
+main section#description section#table table tr td:first-child {
+  border-right: 1px solid;
+}
+
+main section#description section#table table tbody tr td {
+  border-bottom: 1px solid;
+  border-color: #747676;
+}
+
+main section#description section#table table thead tr a {
+  text-decoration: none;
+  color: #6bc5e8;
+}
+
+main section#description section#table table thead tr a:visited {
+  text-decoration: none;
+  color: #6bc5e8;
+}
+
+main section#description section#table table thead tr a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+main section#description section#table table tbody tr td:first-child {
+  background-color: #f7f7f7;
+
+  color: #747676;
+}
