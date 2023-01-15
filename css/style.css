@@ -125,6 +125,26 @@ main
   #displayImage {
   background-color: #131987;
 }
+
+/*  */
+
+#card1 {
+  width: 50%;
+  border: 3px solid #f7f7f7;
+  border-radius: 5px;
+}
+
+#price::before {
+  content: "$";
+  font-size: 0.6em;
+  vertical-align: top;
+}
+#price::after {
+  content: "99";
+  font-size: 0.6em;
+  vertical-align: top;
+}
+
 /* buy it with */
 
 /* more from brands */
